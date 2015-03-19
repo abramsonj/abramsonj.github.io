@@ -1,55 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
 body {
-background-color: #BFBBBF;
+background-color: #cccccc;
 color: #000;
-font-family: Arial, sans-serif;
+font-family: 'Georgia', serif;
 font-size: 24px;
 font-weight: normal;
 text-align: left;
-margin: 20px;
+margin: 30px;
 }
 
 h1 {
-color: #FFF;
-font-family: Helvetica, sans-serif;
+color: #fff;
+font-family: 'Roboto', sans-serif;
 font-size: 72px;
 font-weight: bold;
 text-align: center;
 text-transform: uppercase;
 }
 
-h3 {
-color: #FFF;
-font-family: Helvetica, sans-serif;
-font-size: 48px;
-font-weight: bold;
-text-align: center;
 }
-
 img {
 text-align: center;
-height: 175px;
+height: 100px;
 }
 
 #small {
 font-size: 48px;
+text-align: right;
 }
 
 #slogan {
-font-size: 36px;
+font-family: 'Roboto', sans-serif;
+font-size: 48px;
+color: #fff;
 text-align: center;
 font-style: italic;
-padding: 30 px 30px;
+padding: 20 px 20px;
 }
 
 #contact {
 font-weight: bold;
 text-decoration: underline;
+line-height: 1em;
 }
 
+li {
+font-size:18px;
+}
+
+}
 a {
 text-decoration: none;
 }
 
 hr {
-	border: 3px solid #FFF;
+border: 3px solid #fff;
 }
